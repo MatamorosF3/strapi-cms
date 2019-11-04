@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/folders",
+      "handler": "Folder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/folders/count",
+      "handler": "Folder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/folders/:id",
+      "handler": "Folder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/folders",
+      "handler": "Folder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/folders/:id",
+      "handler": "Folder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/folders/:id",
+      "handler": "Folder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

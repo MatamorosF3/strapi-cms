@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "htmlcontents",
+  "info": {
+    "name": "htmlcontent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "section": {
+      "model": "section",
+      "via": "htmlcontents"
+    }
+  }
+}

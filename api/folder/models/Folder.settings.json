@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "folders",
+  "info": {
+    "name": "folder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "model": "section",
+      "via": "folders"
+    },
+    "folders": {
+      "collection": "folder",
+      "via": "folder"
+    },
+    "folder": {
+      "model": "folder",
+      "via": "folders"
+    },
+    "links": {
+      "collection": "link",
+      "via": "folder"
+    }
+  }
+}
