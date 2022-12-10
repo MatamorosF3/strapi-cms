@@ -13,7 +13,7 @@
   "dependencies": {
     "knex": "latest",
     "sqlite3": "latest",
-    "strapi": "3.0.0-beta.17.4",
+    "strapi": "3.6.11",
     "strapi-admin": "3.0.0-beta.17.4",
     "strapi-hook-bookshelf": "3.0.0-beta.17.4",
     "strapi-hook-knex": "3.0.0-beta.17.4",
@@ -22,7 +22,7 @@
     "strapi-plugin-email": "3.0.0-beta.17.4",
     "strapi-plugin-graphql": "3.0.0-beta.17.4",
     "strapi-plugin-upload": "3.0.0-beta.17.4",
-    "strapi-plugin-users-permissions": "3.0.0-beta.17.4",
+    "strapi-plugin-users-permissions": "3.6.11",
     "strapi-provider-upload-azure-storage": "^1.0.4",
     "strapi-utils": "3.0.0-beta.17.4"
   },
